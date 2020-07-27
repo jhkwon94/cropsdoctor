@@ -90,7 +90,7 @@ public abstract class CameraActivity extends AppCompatActivity
 //        frameValueTextView,
 //      cropValueTextView,
 //      cameraResolutionTextView,
-      rotationTextView,
+//      rotationTextView,
       inferenceTimeTextView;
   protected ImageView bottomSheetArrowImageView;
   private ImageView plusImageView, minusImageView;
@@ -180,7 +180,7 @@ public abstract class CameraActivity extends AppCompatActivity
 //    frameValueTextView = findViewById(R.id.frame_info);
 //    cropValueTextView = findViewById(R.id.crop_info);
 //    cameraResolutionTextView = findViewById(R.id.view_info);
-    rotationTextView = findViewById(R.id.rotation_info);
+//    rotationTextView = findViewById(R.id.rotation_info);
     inferenceTimeTextView = findViewById(R.id.inference_info);
 
     deviceSpinner.setOnItemSelectedListener(this);
@@ -555,9 +555,9 @@ public abstract class CameraActivity extends AppCompatActivity
 //    cameraResolutionTextView.setText(cameraInfo);
 //  }
 
-  protected void showRotationInfo(String rotation) {
-    rotationTextView.setText(rotation);
-  }
+//  protected void showRotationInfo(String rotation) {
+//    rotationTextView.setText(rotation);
+//  }
 
   protected void showInference(String inferenceTime) {
     inferenceTimeTextView.setText(inferenceTime);
