@@ -89,7 +89,7 @@ public abstract class CameraActivity extends AppCompatActivity
   protected TextView
 //        frameValueTextView,
 //      cropValueTextView,
-      cameraResolutionTextView,
+//      cameraResolutionTextView,
       rotationTextView,
       inferenceTimeTextView;
   protected ImageView bottomSheetArrowImageView;
@@ -179,7 +179,7 @@ public abstract class CameraActivity extends AppCompatActivity
 
 //    frameValueTextView = findViewById(R.id.frame_info);
 //    cropValueTextView = findViewById(R.id.crop_info);
-    cameraResolutionTextView = findViewById(R.id.view_info);
+//    cameraResolutionTextView = findViewById(R.id.view_info);
     rotationTextView = findViewById(R.id.rotation_info);
     inferenceTimeTextView = findViewById(R.id.inference_info);
 
@@ -551,9 +551,9 @@ public abstract class CameraActivity extends AppCompatActivity
 //    cropValueTextView.setText(cropInfo);
 //  }
 
-  protected void showCameraResolution(String cameraInfo) {
-    cameraResolutionTextView.setText(cameraInfo);
-  }
+//  protected void showCameraResolution(String cameraInfo) {
+//    cameraResolutionTextView.setText(cameraInfo);
+//  }
 
   protected void showRotationInfo(String rotation) {
     rotationTextView.setText(rotation);
