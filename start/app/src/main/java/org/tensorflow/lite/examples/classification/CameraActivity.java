@@ -86,12 +86,12 @@ public abstract class CameraActivity extends AppCompatActivity
       recognitionValueTextView;
 //      recognition1ValueTextView,
 //      recognition2ValueTextView;
-  protected TextView
+//  protected TextView
 //        frameValueTextView,
 //      cropValueTextView,
 //      cameraResolutionTextView,
 //      rotationTextView,
-      inferenceTimeTextView;
+//      inferenceTimeTextView;
   protected ImageView bottomSheetArrowImageView;
   private ImageView plusImageView, minusImageView;
   private Spinner deviceSpinner;
@@ -181,7 +181,7 @@ public abstract class CameraActivity extends AppCompatActivity
 //    cropValueTextView = findViewById(R.id.crop_info);
 //    cameraResolutionTextView = findViewById(R.id.view_info);
 //    rotationTextView = findViewById(R.id.rotation_info);
-    inferenceTimeTextView = findViewById(R.id.inference_info);
+//    inferenceTimeTextView = findViewById(R.id.inference_info);
 
     deviceSpinner.setOnItemSelectedListener(this);
 
@@ -559,9 +559,9 @@ public abstract class CameraActivity extends AppCompatActivity
 //    rotationTextView.setText(rotation);
 //  }
 
-  protected void showInference(String inferenceTime) {
-    inferenceTimeTextView.setText(inferenceTime);
-  }
+//  protected void showInference(String inferenceTime) {
+//    inferenceTimeTextView.setText(inferenceTime);
+//  }
 
   protected Device getDevice() {
     return device;
